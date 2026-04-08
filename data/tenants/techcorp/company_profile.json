@@ -1,0 +1,15 @@
+{
+  "name": "TechCorp",
+  "industry": "Technology / SaaS",
+  "tech_stack": ["AWS", "Kubernetes", "Apache Kafka", "PostgreSQL", "React", "Node.js", "Datadog", "Okta"],
+  "regulatory_frameworks": ["SOC2 Type II", "GDPR", "ISO 27001"],
+  "risk_threshold": 0.65,
+  "key_assets": ["Customer SaaS platform", "CI/CD pipeline", "AWS us-east-1 production cluster", "Customer PII database", "OAuth2 identity service"],
+  "geography": ["US", "EU", "APAC"],
+  "key_vendors": ["AWS", "Cloudflare", "Okta", "Datadog", "GitHub"],
+  "business_units": ["Engineering", "Product", "Sales", "Finance", "DevSecOps"],
+  "risk_appetite": "medium",
+  "employee_count": 850,
+  "annual_revenue": "$120M",
+  "primary_threats": ["supply chain attack", "cloud misconfiguration", "OAuth token theft", "ransomware"]
+}

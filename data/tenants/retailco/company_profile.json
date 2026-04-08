@@ -1,0 +1,15 @@
+{
+  "name": "RetailCo",
+  "industry": "Retail / E-commerce",
+  "tech_stack": ["SAP ERP", "Shopify Plus", "Azure", "MySQL", "Redis", "Stripe", "FedEx API", "Salesforce"],
+  "regulatory_frameworks": ["PCI-DSS v4", "GDPR", "CCPA"],
+  "risk_threshold": 0.70,
+  "key_assets": ["E-commerce platform", "Payment processing pipeline", "Customer loyalty database", "Warehouse management system", "Third-party supplier portal"],
+  "geography": ["US", "Canada", "UK"],
+  "key_vendors": ["Azure", "Stripe", "FedEx", "UPS", "Salesforce", "Shopify"],
+  "business_units": ["Retail Operations", "E-commerce", "Logistics", "Finance", "IT"],
+  "risk_appetite": "low",
+  "employee_count": 2400,
+  "annual_revenue": "$380M",
+  "primary_threats": ["supply chain disruption", "payment card fraud", "third-party vendor breach", "DDoS during peak sales"]
+}

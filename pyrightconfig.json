@@ -1,0 +1,8 @@
+{
+  "include": ["sentinel", "tests", "scripts"],
+  "extraPaths": ["."],
+  "pythonVersion": "3.12",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": true,
+  "reportMissingModuleSource": false
+}

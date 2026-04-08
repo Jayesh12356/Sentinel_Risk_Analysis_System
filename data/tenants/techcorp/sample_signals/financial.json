@@ -1,0 +1,37 @@
+[
+  {
+    "title": "AWS Cost Spike Anomaly: $180K Unexpected EC2 Charges in 72 Hours",
+    "content": "Automated billing alerts triggered after AWS EC2 costs in us-east-1 increased 340% over a 72-hour window. Initial investigation suggests unauthorized GPU instance launches (p4d.24xlarge) potentially linked to cryptomining. The activity originated from an IAM role with overly broad ec2:RunInstances permissions. This pattern matches known T1496 (Resource Hijacking) crypto-mining campaigns. Immediate IAM policy review and instance termination required.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "FINANCIAL",
+    "confidence": 0.82,
+    "priority": "P2",
+    "entities": [
+      {"name": "AWS", "entity_type": "VENDOR"},
+      {"name": "T1496", "entity_type": "MITRE_TECHNIQUE"},
+      {"name": "EC2", "entity_type": "TECHNOLOGY"}
+    ]
+  },
+  {
+    "title": "SOC2 Type II Audit Finding: Inadequate Access Review Procedures Risk Certification",
+    "content": "Third-party SOC2 auditor has issued a management letter citing two control deficiencies discovered during the annual Type II audit: (1) quarterly access reviews not completed for 38% of privileged accounts, (2) offboarding procedures not enforced within the required 24-hour SLA. If unresolved before audit close, these findings may result in a qualified SOC2 report affecting enterprise customer renewals worth approximately $12M ARR.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "REGULATORY",
+    "confidence": 0.79,
+    "priority": "P2",
+    "entities": [
+      {"name": "SOC2", "entity_type": "REGULATION"}
+    ]
+  },
+  {
+    "title": "GitHub Advanced Security Seat Overage — $240K Unbudgeted Annual Spend",
+    "content": "Finance has flagged an unbudgeted $240K annual spend increase from GitHub Advanced Security seat expansion. The overage was triggered by automatic seat provisioning when developers forked internal repositories to personal accounts, bypassing the standard procurement approval process. This represents a software supply chain governance gap and budget control failure simultaneously.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "FINANCIAL",
+    "confidence": 0.74,
+    "priority": "P3",
+    "entities": [
+      {"name": "GitHub", "entity_type": "PLATFORM"}
+    ]
+  }
+]

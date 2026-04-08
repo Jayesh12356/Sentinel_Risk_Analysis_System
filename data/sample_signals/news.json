@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Critical Zero-Day Vulnerability Discovered in Enterprise Cloud Platform",
+    "content": "Security researchers have identified a critical zero-day vulnerability (CVSSv3 score 9.8) affecting a widely-used enterprise cloud platform. The vulnerability allows unauthenticated remote code execution through a crafted API request. Multiple threat actors are actively exploiting this flaw targeting financial services and healthcare organizations. CISA has added this to its Known Exploited Vulnerabilities catalog.",
+    "url": "https://example.com/news/cloud-zero-day-2025",
+    "published_at": "2025-03-20T09:30:00Z",
+    "source_feed": "cybersecurity_news_rss",
+    "_severity_hint": "P0 — active exploitation of critical zero-day"
+  },
+  {
+    "title": "EU Announces AI Regulation Enforcement Actions Against Tech Giants",
+    "content": "The European Union has launched enforcement actions under the AI Act, targeting three tech companies for non-compliance. Fines could reach 7% of global revenue. Companies have 90 days to demonstrate compliance. Legal experts suggest this signals escalation in AI governance globally.",
+    "url": "https://example.com/news/eu-ai-regulation-enforcement",
+    "published_at": "2025-03-18T11:00:00Z",
+    "source_feed": "newsapi",
+    "_severity_hint": "P2 — regulatory risk, no immediate threat"
+  },
+  {
+    "title": "Global Semiconductor Shortage Expected to Ease by Q4",
+    "content": "Industry analysts report the semiconductor shortage is gradually improving. New fabrication capacity coming online in Q3 should alleviate most supply constraints by Q4. Leading chipmakers report inventory levels normalizing across automotive and consumer electronics sectors.",
+    "url": "https://example.com/news/semiconductor-update",
+    "published_at": "2025-03-19T14:15:00Z",
+    "source_feed": "reuters_business_rss",
+    "_severity_hint": "P3 — improving situation, low urgency"
+  },
+  {
+    "title": "Minor Data Privacy Update: GDPR Guidance Clarified for SMEs",
+    "content": "The European Data Protection Board has published updated guidance clarifying GDPR compliance requirements for small and medium enterprises. The guidance simplifies reporting obligations and provides template documents. No enforcement changes are expected.",
+    "url": "https://example.com/news/gdpr-sme-guidance",
+    "published_at": "2025-03-17T10:00:00Z",
+    "source_feed": "newsapi",
+    "_severity_hint": "P3 — informational, no risk"
+  }
+]

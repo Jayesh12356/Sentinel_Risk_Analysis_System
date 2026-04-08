@@ -1,0 +1,15 @@
+{
+  "name": "FinanceInc",
+  "industry": "Financial Services / Asset Management",
+  "tech_stack": ["Bloomberg Terminal", "Oracle DB", "IBM MQ", "Python (quant)", "Azure", "Palo Alto NGFW", "Splunk SIEM"],
+  "regulatory_frameworks": ["SOX", "FINRA", "PCI-DSS v4", "GDPR", "SEC Rule 17a-4"],
+  "risk_threshold": 0.55,
+  "key_assets": ["Trading platform", "Client portfolio database", "Wire transfer system", "Compliance reporting engine", "Market data feeds"],
+  "geography": ["US", "UK", "Singapore"],
+  "key_vendors": ["Bloomberg", "Oracle", "IBM", "Palo Alto Networks", "Splunk"],
+  "business_units": ["Equity Trading", "Fixed Income", "Risk & Compliance", "IT Security", "Operations"],
+  "risk_appetite": "very low",
+  "employee_count": 1100,
+  "annual_revenue": "$520M",
+  "primary_threats": ["wire fraud / BEC", "insider trading data leak", "regulatory non-compliance", "APT targeting financial data"]
+}

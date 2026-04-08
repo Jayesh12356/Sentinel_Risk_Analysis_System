@@ -1,0 +1,20 @@
+[
+  {
+    "supplier_name": "CloudScale Solutions",
+    "subject": "Re: Partnership Inquiry — Cloud Infrastructure Services",
+    "body": "Thank you for reaching out regarding cloud infrastructure services.\n\nWe would be happy to discuss how CloudScale can support your organisation. Based on your requirements, we can offer:\n\n- **Managed Kubernetes**: Starting at $2,400/month for production clusters\n- **CDN + Global Edge**: $0.08/GB with 200+ PoPs worldwide\n- **Dedicated Support**: 24/7 with <15 min response SLA for P0 incidents\n- **Migration Support**: Complimentary 30-day migration assistance\n\nWe currently serve 40+ enterprise customers in the technology and financial services sectors. Our onboarding process typically takes 5-7 business days.\n\nWould you be available for a technical deep-dive call next week? I can also arrange access to our sandbox environment for your team to evaluate.\n\nBest regards,\nSarah Chen\nVP Enterprise Sales, CloudScale Solutions",
+    "received_at": "2025-03-26T14:30:00"
+  },
+  {
+    "supplier_name": "NovaTech Infrastructure",
+    "subject": "Re: Exploring Infrastructure Partnership Opportunities",
+    "body": "Hi,\n\nThank you for your interest in NovaTech Infrastructure. We appreciate you considering us as a potential partner.\n\nHere's what we can offer based on typical enterprise requirements:\n\n- **Global Compute**: Instances starting at $0.045/vCPU-hour across 15 regions\n- **Managed PostgreSQL/Redis**: Starting at $180/month per cluster\n- **99.99% Uptime SLA**: With financial credits for any breach\n- **Compliance**: SOC 2, ISO 27001, GDPR ready\n- **Volume Discounts**: 15-25% for 12+ month commitments\n\nOur current lead time for enterprise onboarding is approximately 10 business days, including security review and custom networking setup.\n\nI'd love to schedule a discovery call to understand your specific needs. Could you share your current infrastructure footprint?\n\nRegards,\nMichael Torres\nDirector of Partnerships, NovaTech Infrastructure",
+    "received_at": "2025-03-26T16:45:00"
+  },
+  {
+    "supplier_name": "PrimeHost Systems",
+    "subject": "Re: Infrastructure Services for Regulated Industries",
+    "body": "Dear Team,\n\nThank you for reaching out to PrimeHost Systems. Given our specialisation in regulated industries, we believe we could be an excellent fit.\n\nOur key differentiators:\n\n- **Compliance-First Architecture**: Pre-configured for SOC 2, HIPAA, PCI-DSS\n- **Dedicated Environments**: Fully isolated infrastructure per customer\n- **Managed Security**: WAF, DDoS protection, and 24/7 SOC included\n- **Pricing**: Custom enterprise plans starting at $5,000/month\n- **SLA**: 99.995% with dedicated incident response team\n\nWe require a compliance questionnaire to be completed before formal engagement, but we can provide a preliminary proposal within 48 hours of receiving your requirements.\n\nPlease let us know if you'd like to proceed with a formal evaluation.\n\nWarm regards,\nDr. Emily Richardson\nChief Commercial Officer, PrimeHost Systems",
+    "received_at": "2025-03-27T09:15:00"
+  }
+]

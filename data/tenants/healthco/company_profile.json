@@ -1,0 +1,15 @@
+{
+  "name": "HealthCo",
+  "industry": "Healthcare / Medical Devices",
+  "tech_stack": ["Epic EHR", "AWS GovCloud", "HL7 FHIR", "PostgreSQL", "Azure AD", "Palo Alto", "CrowdStrike"],
+  "regulatory_frameworks": ["HIPAA", "HITECH", "FDA 21 CFR Part 11", "SOC2 Type II", "ISO 27799"],
+  "risk_threshold": 0.50,
+  "key_assets": ["Electronic Health Records (EHR)", "Medical device telemetry platform", "Patient PII database", "Clinical trial data store", "Pharmacy dispensing system"],
+  "geography": ["US", "Canada"],
+  "key_vendors": ["Epic Systems", "AWS", "CrowdStrike", "Palo Alto Networks", "Microsoft Azure"],
+  "business_units": ["Clinical Operations", "Medical Devices", "IT Security", "Compliance", "Research"],
+  "risk_appetite": "very low",
+  "employee_count": 3200,
+  "annual_revenue": "$290M",
+  "primary_threats": ["ransomware targeting EHR", "PHI data exfiltration", "medical device exploitation", "HIPAA violation via third party"]
+}

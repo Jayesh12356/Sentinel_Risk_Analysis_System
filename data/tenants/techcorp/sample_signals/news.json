@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Critical Apache Log4Shell Variant Discovered in Open-Source Logging Framework",
+    "content": "Security researchers have identified CVE-2024-38819, a remote code execution vulnerability in a popular Apache logging library widely used in cloud-native applications. The exploit allows unauthenticated attackers to execute arbitrary code via crafted JNDI lookup strings embedded in HTTP headers. PoC code is publicly available and active exploitation has been observed in the wild. Organizations running Kubernetes workloads with Java-based microservices are at elevated risk.",
+    "source": "NEWS",
+    "category": "CYBER",
+    "confidence": 0.91,
+    "priority": "P1",
+    "entities": [
+      {"name": "CVE-2024-38819", "entity_type": "CVE"},
+      {"name": "Apache", "entity_type": "VENDOR"},
+      {"name": "Kubernetes", "entity_type": "TECHNOLOGY"},
+      {"name": "Log4Shell", "entity_type": "THREAT"}
+    ]
+  },
+  {
+    "title": "AWS IAM Credential Leak Exposes Cloud Environments of SaaS Vendors",
+    "content": "A wave of AWS Identity and Access Management (IAM) credential exposures has been linked to hardcoded secrets in public GitHub repositories. Threat actors are using automated scanning bots to harvest exposed keys within minutes of commit. Affected organisations include multiple SaaS providers running production workloads in AWS us-east-1. The attack technique leverages T1552.004 (Credentials in Files) from the MITRE ATT&CK framework.",
+    "source": "NEWS",
+    "category": "CYBER",
+    "confidence": 0.85,
+    "priority": "P1",
+    "entities": [
+      {"name": "AWS", "entity_type": "VENDOR"},
+      {"name": "T1552.004", "entity_type": "MITRE_TECHNIQUE"},
+      {"name": "IAM", "entity_type": "TECHNOLOGY"},
+      {"name": "GitHub", "entity_type": "PLATFORM"}
+    ]
+  },
+  {
+    "title": "UK ICO Fines SaaS Company £4.2M for GDPR Article 32 Security Failure",
+    "content": "The UK Information Commissioner's Office issued a £4.2 million fine to a B2B SaaS provider after a security incident exposed 1.4 million customer records including names, email addresses, and billing details. The ICO found the company had failed to implement appropriate technical measures under GDPR Article 32, specifically inadequate encryption at rest and absence of multi-factor authentication on administrative interfaces.",
+    "source": "NEWS",
+    "category": "REGULATORY",
+    "confidence": 0.88,
+    "priority": "P2",
+    "entities": [
+      {"name": "GDPR", "entity_type": "REGULATION"},
+      {"name": "ICO", "entity_type": "REGULATOR"},
+      {"name": "Article 32", "entity_type": "REGULATION"}
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "CloudScale Solutions",
+    "website": "https://cloudscale.io",
+    "description": "Enterprise cloud infrastructure provider specialising in high-availability hosting, CDN, and managed Kubernetes. Known for rapid onboarding and competitive pricing.",
+    "relevance_score": 0.92,
+    "search_source": "demo"
+  },
+  {
+    "name": "NovaTech Infrastructure",
+    "website": "https://novatech-infra.com",
+    "description": "Global infrastructure-as-a-service provider with data centres in 15 countries. Offers managed databases, compute, and networking with 99.99% SLA.",
+    "relevance_score": 0.88,
+    "search_source": "demo"
+  },
+  {
+    "name": "PrimeHost Systems",
+    "website": "https://primehost.systems",
+    "description": "Specialised hosting provider for financial services and healthcare. SOC 2 Type II certified, HIPAA compliant, with dedicated account management.",
+    "relevance_score": 0.85,
+    "search_source": "demo"
+  },
+  {
+    "name": "StackBridge Corp",
+    "website": "https://stackbridge.co",
+    "description": "Full-stack DevOps and infrastructure provider offering CI/CD, container orchestration, and observability platforms. Strong focus on developer experience.",
+    "relevance_score": 0.78,
+    "search_source": "demo"
+  },
+  {
+    "name": "AegisCloud Partners",
+    "website": "https://aegiscloud.partners",
+    "description": "Boutique cloud consulting and managed services firm. Expertise in migration, cost optimisation, and multi-cloud strategy for mid-market enterprises.",
+    "relevance_score": 0.72,
+    "search_source": "demo"
+  }
+]

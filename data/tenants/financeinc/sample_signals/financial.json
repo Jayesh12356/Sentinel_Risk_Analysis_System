@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Treasury Reports $18M Uncommitted Cash Due to IBM MQ Reconciliation Failure",
+    "content": "Treasury operations has flagged an $18 million reconciliation discrepancy caused by a 6-hour IBM MQ message queue backlog during end-of-day settlement processing. Eight trading desk transactions were not acknowledged by the downstream confirmation system, leaving positions unhedged overnight. The root cause is a memory exhaustion issue in the queue manager under high-volume settlement conditions. This creates both financial exposure and potential T+1 settlement rule violation under SEC Rule 204.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "FINANCIAL",
+    "confidence": 0.86,
+    "priority": "P1",
+    "entities": [
+      {"name": "IBM MQ", "entity_type": "TECHNOLOGY"},
+      {"name": "SEC Rule 204", "entity_type": "REGULATION"}
+    ]
+  },
+  {
+    "title": "Palo Alto Firewall Renewal Cost Increase 38% — $2.8M Unbudgeted Security Spend",
+    "content": "The annual renewal for Palo Alto Networks NGFW licenses, threat prevention subscriptions, and Panorama management has come in at $2.8M above the approved budget, representing a 38% increase driven by subscription model changes and expanded coverage requirements post a network segmentation project. Security budget reallocation is required, potentially impacting planned SIEM upgrade investments in Q3.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "FINANCIAL",
+    "confidence": 0.72,
+    "priority": "P3",
+    "entities": [
+      {"name": "Palo Alto Networks", "entity_type": "VENDOR"}
+    ]
+  },
+  {
+    "title": "SOX Section 404 Audit Identifies 3 IT General Controls Deficiencies in Trading Systems",
+    "content": "External auditors have identified three IT General Controls (ITGC) deficiencies in the equity trading platform during the SOX Section 404 audit: (1) change management controls lack post-implementation review for 22% of trading engine changes, (2) logical access reviews for privileged Bloomberg accounts overdue by 6 weeks, (3) audit log retention for Oracle DB does not meet 7-year requirement under SEC Rule 17a-4. These findings require remediation within 60 days to avoid material weakness designation.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "REGULATORY",
+    "confidence": 0.89,
+    "priority": "P1",
+    "entities": [
+      {"name": "SOX", "entity_type": "REGULATION"},
+      {"name": "SEC Rule 17a-4", "entity_type": "REGULATION"},
+      {"name": "Bloomberg", "entity_type": "VENDOR"}
+    ]
+  }
+]

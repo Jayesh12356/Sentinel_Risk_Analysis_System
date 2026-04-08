@@ -1,0 +1,34 @@
+{
+  "id": "default",
+  "name": "Meridian Technologies",
+  "industry": "Technology",
+  "regions": [
+    "EU",
+    "US"
+  ],
+  "tech_stack": [
+    "AWS",
+    "Apache",
+    "Kubernetes",
+    "PostgreSQL"
+  ],
+  "suppliers": [
+    "TSMC",
+    "Cloudflare",
+    "Stripe"
+  ],
+  "competitors": [
+    "CrowdStrike",
+    "Palo Alto Networks"
+  ],
+  "regulatory_scope": [
+    "GDPR",
+    "SOC2"
+  ],
+  "keywords": [
+    "zero-day",
+    "ransomware",
+    "data breach"
+  ],
+  "updated_at": "2026-03-26T11:43:22.137240Z"
+}

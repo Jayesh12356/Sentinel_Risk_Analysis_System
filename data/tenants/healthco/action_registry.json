@@ -1,0 +1,48 @@
+[
+  {
+    "action_type": "PAGERDUTY_ALERT",
+    "enabled": true,
+    "auto_execute": true,
+    "config": {
+      "severity": "critical",
+      "component": "sentinel"
+    }
+  },
+  {
+    "action_type": "SLACK_MESSAGE",
+    "enabled": true,
+    "auto_execute": true,
+    "config": {
+      "channel": "#security-alerts"
+    }
+  },
+  {
+    "action_type": "JIRA_TICKET",
+    "enabled": true,
+    "auto_execute": false,
+    "config": {
+      "issue_type": "Bug",
+      "priority": "High"
+    }
+  },
+  {
+    "action_type": "EMAIL_DRAFT",
+    "enabled": true,
+    "auto_execute": false,
+    "config": {
+      "template": "incident_notification"
+    }
+  },
+  {
+    "action_type": "WEBHOOK",
+    "enabled": false,
+    "auto_execute": false,
+    "config": {}
+  },
+  {
+    "action_type": "INITIATE_NEGOTIATION",
+    "enabled": true,
+    "auto_execute": false,
+    "config": {}
+  }
+]

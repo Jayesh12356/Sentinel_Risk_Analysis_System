@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Rhysida Ransomware Group Targets EHR Systems — 4 US Hospitals Encrypted in 10 Days",
+    "content": "Threat intelligence confirms Rhysida ransomware group has compromised Epic EHR-connected environments at four US hospitals over a 10-day period. The attack chain begins with phishing (T1566.002) targeting clinical staff, followed by LSASS memory dumping (T1003.001) for credential harvesting, lateral movement to EHR application servers, and encryption of patient record databases. Mean time to encrypt from initial access: 72 hours. Healthcare organisations must implement CrowdStrike-based behavioural detection for LSASS access and segment EHR servers from general hospital network.",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.94,
+    "priority": "P1",
+    "entities": [
+      {"name": "Rhysida", "entity_type": "THREAT_ACTOR"},
+      {"name": "Epic", "entity_type": "VENDOR"},
+      {"name": "T1566.002", "entity_type": "MITRE_TECHNIQUE"},
+      {"name": "T1003.001", "entity_type": "MITRE_TECHNIQUE"},
+      {"name": "CrowdStrike", "entity_type": "VENDOR"}
+    ]
+  },
+  {
+    "title": "CrowdStrike Falcon Sensor Vulnerability Allows EDR Bypass on Healthcare Endpoints",
+    "content": "A privilege escalation vulnerability in CrowdStrike Falcon Sensor for Windows (CVE-2024-56908, CVSS 8.7) enables attackers with local administrative access to disable the EDR agent by exploiting a kernel driver race condition. In healthcare environments where clinical workstations often operate with shared administrative accounts, this fault significantly undermines endpoint detection coverage. CrowdStrike has released sensor version 7.13.18614 as an emergency fix.",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.88,
+    "priority": "P1",
+    "entities": [
+      {"name": "CVE-2024-56908", "entity_type": "CVE"},
+      {"name": "CrowdStrike", "entity_type": "VENDOR"}
+    ]
+  },
+  {
+    "title": "PHI Exfiltration via Epic MyChart API OAuth Misconfiguration — 280,000 Patient Records at Risk",
+    "content": "A misconfigured OAuth2 scope in Epic MyChart's patient-facing API has been identified that allows an authenticated patient to access other patients' appointment data, medication lists, and diagnostic results via manipulated FHIR resource requests. This constitutes a HIPAA breach affecting 280,000 patient records. Exploitation requires a valid MyChart account and knowledge of sequential FHIR resource IDs. CVSS 7.5 (network-reachable, low-complexity, no privileges required beyond authentication).",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.91,
+    "priority": "P1",
+    "entities": [
+      {"name": "Epic", "entity_type": "VENDOR"},
+      {"name": "HIPAA", "entity_type": "REGULATION"},
+      {"name": "HL7 FHIR", "entity_type": "STANDARD"}
+    ]
+  }
+]

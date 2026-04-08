@@ -1,0 +1,42 @@
+[
+  {
+    "id": "default",
+    "name": "Default",
+    "industry": "Technology / SaaS",
+    "created_at": "2026-03-25T00:00:00.000000",
+    "is_active": true,
+    "profile_path": "data\\company_profile.json"
+  },
+  {
+    "id": "techcorp",
+    "name": "TechCorp",
+    "industry": "Technology / SaaS",
+    "created_at": "2026-03-26T12:02:22.317918",
+    "is_active": false,
+    "profile_path": "data\\tenants\\techcorp\\company_profile.json"
+  },
+  {
+    "id": "retailco",
+    "name": "RetailCo",
+    "industry": "Retail / E-commerce",
+    "created_at": "2026-03-26T12:02:23.348029",
+    "is_active": false,
+    "profile_path": "data\\tenants\\retailco\\company_profile.json"
+  },
+  {
+    "id": "financeinc",
+    "name": "FinanceInc",
+    "industry": "Financial Services",
+    "created_at": "2026-03-26T12:02:23.982041",
+    "is_active": false,
+    "profile_path": "data\\tenants\\financeinc\\company_profile.json"
+  },
+  {
+    "id": "healthco",
+    "name": "HealthCo",
+    "industry": "Healthcare",
+    "created_at": "2026-03-26T12:02:24.483968",
+    "is_active": false,
+    "profile_path": "data\\tenants\\healthco\\company_profile.json"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "cve_id": "CVE-2025-21001",
+    "title": "Critical RCE in Apache Struts — CVSS 9.8",
+    "content": "A critical remote code execution vulnerability in Apache Struts 2.5.0–2.5.32 (CVSSv3 9.8). Unauthenticated attackers can execute arbitrary commands via crafted file uploads. Multiple PoC exploits are publicly available and active exploitation is confirmed. CISA has mandated 14-day remediation.",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21001",
+    "published_at": "2025-03-20T12:00:00Z",
+    "cvss_score": 9.8,
+    "severity": "CRITICAL",
+    "affected_products": ["Apache Struts 2.5.0–2.5.32"],
+    "cwe_id": "CWE-94",
+    "_severity_hint": "P0 — critical RCE with active exploitation"
+  },
+  {
+    "cve_id": "CVE-2025-18445",
+    "title": "Privilege Escalation in Linux Kernel — CVSS 7.8",
+    "content": "Local privilege escalation in Linux kernel netfilter subsystem (5.15–6.7). Use-after-free allows root access from low-privilege user. PoC on GitHub. Patches released by major distributions.",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-18445",
+    "published_at": "2025-03-19T08:30:00Z",
+    "cvss_score": 7.8,
+    "severity": "HIGH",
+    "affected_products": ["Linux Kernel 5.15–6.7"],
+    "cwe_id": "CWE-416",
+    "_severity_hint": "P1 — high severity, local only"
+  },
+  {
+    "cve_id": "CVE-2025-25678",
+    "title": "Stored XSS in Cloud Management Console — CVSS 6.1",
+    "content": "Stored cross-site scripting in a cloud management console's resource tagging feature. Authenticated attacker can inject scripts executed in admin browsers. Low impact, already patched server-side.",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25678",
+    "published_at": "2025-03-16T14:20:00Z",
+    "cvss_score": 6.1,
+    "severity": "MEDIUM",
+    "affected_products": ["Cloud Management Console"],
+    "cwe_id": "CWE-79",
+    "_severity_hint": "P2 — medium severity, already patched"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Major Retail Supply Chain Attack: 3PL Software Provider Compromised, 600 Retailers Affected",
+    "content": "A sophisticated supply chain attack targeting a major third-party logistics (3PL) software provider has impacted over 600 retail clients across North America and the UK. Threat actors inserted malicious code into the provider's warehouse management system update, enabling data exfiltration of shipment manifests and customer addresses. The attack is attributed to a nation-state-aligned group exploiting CVE-2024-35284 in the vendor's web portal. Retailers using the affected 3PL platform should audit outbound data transfers and isolate integration endpoints.",
+    "source": "NEWS",
+    "category": "CYBER",
+    "confidence": 0.89,
+    "priority": "P1",
+    "entities": [
+      {"name": "CVE-2024-35284", "entity_type": "CVE"},
+      {"name": "3PL", "entity_type": "VENDOR_TYPE"},
+      {"name": "T1195", "entity_type": "MITRE_TECHNIQUE"}
+    ]
+  },
+  {
+    "title": "FedEx API Outage Causes 48-Hour Shipping Disruption Across US Retailers",
+    "content": "FedEx experienced a 48-hour API service degradation affecting real-time shipment tracking and label generation for integrated retail partners. The outage originated from a datacenter network misconfiguration during a scheduled maintenance window. Retailers relying on FedEx for peak season fulfilment faced significant order management backlogs. Analysts estimate $200M in aggregate lost revenue across affected retailers. Business continuity planning for carrier-API dependencies is highlighted as a critical gap.",
+    "source": "NEWS",
+    "category": "OPERATIONAL",
+    "confidence": 0.83,
+    "priority": "P2",
+    "entities": [
+      {"name": "FedEx", "entity_type": "VENDOR"}
+    ]
+  },
+  {
+    "title": "PCI-DSS v4 Deadline: Retailers Face Compliance Gap as March 2025 Cutover Approaches",
+    "content": "The PCI Security Standards Council has confirmed that PCI-DSS v3.2.1 will be retired on 31 March 2025, mandating full v4 compliance for all card-present and card-not-present merchants. Retail industry surveys indicate 47% of mid-market retailers have not completed the required network segmentation reassessment under Requirement 12.3.2. Non-compliant merchants risk card brand fines of $5,000–$100,000/month and potential suspension of card acceptance privileges.",
+    "source": "NEWS",
+    "category": "REGULATORY",
+    "confidence": 0.91,
+    "priority": "P1",
+    "entities": [
+      {"name": "PCI-DSS", "entity_type": "REGULATION"},
+      {"name": "PCI SSC", "entity_type": "REGULATOR"}
+    ]
+  }
+]

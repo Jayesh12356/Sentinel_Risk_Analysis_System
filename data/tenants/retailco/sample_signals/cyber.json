@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Magecart Skimmer Injected into Shopify Payment Checkout — 12 Retailers Compromised",
+    "content": "Threat intelligence firm has identified an active Magecart campaign targeting Shopify Plus storefronts through a compromised third-party review widget. The skimmer harvests payment card data and billing addresses in real-time during checkout and exfiltrates them to attacker-controlled domains. IoCs include injected JavaScript from CDN domain reviewwidget-cdn[.]net. MITRE ATT&CK T1185 (Browser Session Hijacking) and T1059.007 (JavaScript) apply. All Shopify Plus merchants using third-party review apps should audit active scripts immediately.",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.94,
+    "priority": "P1",
+    "entities": [
+      {"name": "Magecart", "entity_type": "THREAT_ACTOR"},
+      {"name": "Shopify", "entity_type": "PLATFORM"},
+      {"name": "T1185", "entity_type": "MITRE_TECHNIQUE"},
+      {"name": "T1059.007", "entity_type": "MITRE_TECHNIQUE"}
+    ]
+  },
+  {
+    "title": "Stripe Webhook Endpoint Exploitation Enables Fraudulent Refund Processing",
+    "content": "Security researchers have published a technique exploiting improperly validated Stripe webhook endpoints to trigger fraudulent refund events without a valid Stripe signature. Merchants with unvalidated webhook handlers are vulnerable to replay attacks and fraudulent credit issuances. CVSS score estimated at 9.1. The attack requires no authentication and exploits CWE-345 (Insufficient Verification of Data Authenticity). Retailers must implement Stripe-Signature header validation immediately.",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.88,
+    "priority": "P1",
+    "entities": [
+      {"name": "Stripe", "entity_type": "VENDOR"},
+      {"name": "CWE-345", "entity_type": "CWE"}
+    ]
+  },
+  {
+    "title": "Azure AD Conditional Access Policy Misconfiguration Exposes Retail Admin Portals",
+    "content": "Microsoft has issued a security advisory regarding misconfigured Conditional Access policies in Azure AD that inadvertently allow legacy authentication protocols (SMTP, IMAP, POP3) to bypass MFA requirements. Retail organisations using Azure-hosted ERP and e-commerce admin portals with legacy protocol support enabled are at risk of password spray attacks. CVE-2024-29140 scores CVSS 7.5. Recommended mitigation: enable block legacy authentication policy in all conditional access rules.",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.85,
+    "priority": "P2",
+    "entities": [
+      {"name": "CVE-2024-29140", "entity_type": "CVE"},
+      {"name": "Azure AD", "entity_type": "TECHNOLOGY"},
+      {"name": "Microsoft", "entity_type": "VENDOR"}
+    ]
+  }
+]

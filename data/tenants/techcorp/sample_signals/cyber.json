@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Okta Supply Chain Attack Compromises Authentication Tokens for 10,000+ SaaS Tenants",
+    "content": "Okta has confirmed a sophisticated supply chain attack in which threat actors compromised a third-party support vendor and accessed customer authentication session tokens. Attackers used stolen tokens to bypass MFA and gain administrative access to downstream SaaS customer environments. MITRE ATT&CK T1199 (Trusted Relationship) and T1078 (Valid Accounts) were the primary techniques. All Okta-integrated SaaS platforms should rotate session tokens and audit admin actions from the past 30 days immediately.",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.95,
+    "priority": "P1",
+    "entities": [
+      {"name": "Okta", "entity_type": "VENDOR"},
+      {"name": "T1199", "entity_type": "MITRE_TECHNIQUE"},
+      {"name": "T1078", "entity_type": "MITRE_TECHNIQUE"},
+      {"name": "CVE-2023-32315", "entity_type": "CVE"}
+    ]
+  },
+  {
+    "title": "Kubernetes Privilege Escalation via Misconfigured RBAC Policies — Active Exploitation",
+    "content": "NVD has published CVE-2024-21626 (CVSS 8.6), a container escape vulnerability in runC affecting all Kubernetes distributions using the default container runtime. Attackers gain host-level access by exploiting misconfigured RBAC ClusterRole bindings combined with the runC flaw. Cloud-native organizations running unpatched Kubernetes < 1.28.5 are at critical risk. The attack chain maps to MITRE ATT&CK T1611 (Escape to Host).",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.93,
+    "priority": "P1",
+    "entities": [
+      {"name": "CVE-2024-21626", "entity_type": "CVE"},
+      {"name": "Kubernetes", "entity_type": "TECHNOLOGY"},
+      {"name": "T1611", "entity_type": "MITRE_TECHNIQUE"},
+      {"name": "runC", "entity_type": "TECHNOLOGY"}
+    ]
+  },
+  {
+    "title": "Datadog Agent Vulnerability Allows Host Secret Extraction from Kubernetes Pods",
+    "content": "A newly disclosed vulnerability in Datadog Agent versions 7.45.x allows a compromised containerised workload to extract the Datadog API key from the host agent socket, granting full observability-plane access. An attacker with pod exec access could pivot to extract secrets from other monitored services. CWE-522 (Insufficiently Protected Credentials) is the root weakness. Remediation: upgrade to Datadog Agent 7.46.0+.",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.87,
+    "priority": "P2",
+    "entities": [
+      {"name": "Datadog", "entity_type": "VENDOR"},
+      {"name": "CWE-522", "entity_type": "CWE"},
+      {"name": "Kubernetes", "entity_type": "TECHNOLOGY"}
+    ]
+  }
+]

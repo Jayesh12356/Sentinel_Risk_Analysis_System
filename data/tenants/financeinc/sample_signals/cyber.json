@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Business Email Compromise Campaign Targets Finance Teams — $45M Wire Transfer Fraud Surge",
+    "content": "The FBI IC3 has issued a flash alert documenting a 34% year-over-year increase in Business Email Compromise (BEC) attacks specifically targeting financial services wire transfer authorisation workflows. Attackers use AI-generated executive voice cloning (T1566.001 Spearphishing) to impersonate CFOs and request urgent wire transfers. Successful attacks average $2.3M per incident. Organisations relying on email-only wire authorisation without voice confirmation callbacks are at critical risk.",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.92,
+    "priority": "P1",
+    "entities": [
+      {"name": "BEC", "entity_type": "THREAT"},
+      {"name": "T1566.001", "entity_type": "MITRE_TECHNIQUE"},
+      {"name": "FBI IC3", "entity_type": "AUTHORITY"}
+    ]
+  },
+  {
+    "title": "APT41 Targets Trading Platforms with Oracle DB Exploitation Chain — CVSS 9.8",
+    "content": "Mandiant has published a threat report linking APT41 (Double Dragon) to a sophisticated exploitation chain targeting Oracle Database 19c and 21c used in financial trading platforms. The attack leverages CVE-2024-20953 (Oracle DB privilege escalation, CVSS 9.8) chained with T1005 (Data from Local System) to exfiltrate order books and client position data. The campaign has targeted asset managers across the US and Singapore. All Oracle DB users should apply the January 2024 Critical Patch Update immediately.",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.95,
+    "priority": "P1",
+    "entities": [
+      {"name": "CVE-2024-20953", "entity_type": "CVE"},
+      {"name": "APT41", "entity_type": "THREAT_ACTOR"},
+      {"name": "Oracle", "entity_type": "VENDOR"},
+      {"name": "T1005", "entity_type": "MITRE_TECHNIQUE"}
+    ]
+  },
+  {
+    "title": "Splunk SIEM Vulnerability Allows Config Exfiltration via Search API — CVE-2024-36991",
+    "content": "Splunk has disclosed CVE-2024-36991, a path traversal vulnerability in Splunk Enterprise that allows authenticated users to read arbitrary files from the Splunk server filesystem through the search management API. In financial services SIEM deployments, this could expose Splunk configuration files containing LDAP credentials, API tokens for downstream integrations, and detection rule logic that provides attackers a roadmap of monitored threat patterns.",
+    "source": "CYBER_THREAT",
+    "category": "CYBER",
+    "confidence": 0.88,
+    "priority": "P2",
+    "entities": [
+      {"name": "CVE-2024-36991", "entity_type": "CVE"},
+      {"name": "Splunk", "entity_type": "VENDOR"}
+    ]
+  }
+]

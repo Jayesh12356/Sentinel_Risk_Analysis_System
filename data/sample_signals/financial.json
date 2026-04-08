@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Major Bank Files 8-K Disclosing Cybersecurity Breach Affecting 3.2M Customers",
+    "content": "A top-10 US bank filed an 8-K disclosing a cybersecurity incident compromising 3.2 million customer records. Remediation costs estimated at $150–200M. Regulatory investigations pending.",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?type=8-K",
+    "published_at": "2025-03-17T11:15:00Z",
+    "filing_type": "8-K",
+    "company": "National Trust Bank",
+    "ticker": "NTBK",
+    "cik": "0004567890",
+    "_severity_hint": "P1 — major breach, financial impact"
+  },
+  {
+    "title": "Energy Conglomerate 10-Q Reveals $2.8B Goodwill Impairment",
+    "content": "An energy company's 10-Q reveals $2.8B goodwill impairment from failed renewable energy acquisition. Total assets reduced by 8%. Company in discussions with lenders regarding covenant modifications.",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?type=10-Q",
+    "published_at": "2025-03-18T14:30:00Z",
+    "filing_type": "10-Q",
+    "company": "EnergyMax Holdings",
+    "ticker": "EMAX",
+    "cik": "0003456789",
+    "_severity_hint": "P1 — significant financial loss"
+  },
+  {
+    "title": "Pharmaceutical Company Annual Filing Shows Routine Compliance Update",
+    "content": "A mid-cap pharmaceutical company's annual 10-K filing shows stable revenue growth of 4% year-over-year with no material weaknesses identified. Internal controls rated effective by external auditors. No significant risk factors added.",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?type=10-K",
+    "published_at": "2025-03-19T09:00:00Z",
+    "filing_type": "10-K",
+    "company": "HealthCorp Inc",
+    "ticker": "HCOR",
+    "cik": "0002345678",
+    "_severity_hint": "P2 — routine filing, no concerns"
+  }
+]

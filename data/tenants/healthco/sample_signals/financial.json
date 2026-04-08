@@ -1,0 +1,38 @@
+[
+  {
+    "title": "AWS GovCloud Cost Overrun: $1.2M Quarterly Overage from EHR Backup Storage Misconfiguration",
+    "content": "Finance has flagged a $1.2M quarterly AWS GovCloud overage caused by redundant EHR backup storage tiers being provisioned across three availability zones without lifecycle policies. Specifically, Epic's Interconnect integration log data has been accumulating in S3 Standard tier instead of S3 Glacier, accruing $340K/month in unnecessary storage costs. Implementation of S3 Intelligent-Tiering and 90-day lifecycle policies is estimated to reduce costs by $280K/month.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "FINANCIAL",
+    "confidence": 0.78,
+    "priority": "P2",
+    "entities": [
+      {"name": "AWS GovCloud", "entity_type": "TECHNOLOGY"},
+      {"name": "Epic", "entity_type": "VENDOR"}
+    ]
+  },
+  {
+    "title": "HIPAA Breach Notification Costs Projected at $4.8M Following PHI Incident — Legal and Notification Exposure",
+    "content": "Legal counsel has estimated total breach response costs at $4.8M following a PHI incident affecting 280,000 patient records. Cost breakdown: individual breach notification letters ($0.4M), credit monitoring services for affected patients ($1.2M), OCR investigation response ($0.8M), public relations and patient trust recovery ($0.6M), IT forensics and remediation ($1.1M), estimated regulatory fines ($0.7M). The organisation's cyber insurance policy carries a $1M deductible with a $5M annual aggregate limit.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "FINANCIAL",
+    "confidence": 0.83,
+    "priority": "P1",
+    "entities": [
+      {"name": "HIPAA", "entity_type": "REGULATION"},
+      {"name": "HHS OCR", "entity_type": "REGULATOR"}
+    ]
+  },
+  {
+    "title": "Medical Device Recall Costs Estimated at $6.2M After FDA 21 CFR Part 806 Notification Filed",
+    "content": "The organisation has filed a mandatory recall notification with the FDA under 21 CFR Part 806 for 1,840 connected infusion pump units deployed across 12 hospital partners following vulnerability disclosure. Estimated recall costs: firmware update logistics ($1.4M), temporary replacement unit procurement ($2.8M), engineering labour for on-site updates ($0.9M), regulatory documentation and submission ($0.4M), hospital partner communication and credentialing ($0.7M). Recall completion deadline: 90 days.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "FINANCIAL",
+    "confidence": 0.85,
+    "priority": "P1",
+    "entities": [
+      {"name": "FDA", "entity_type": "REGULATOR"},
+      {"name": "21 CFR Part 806", "entity_type": "REGULATION"}
+    ]
+  }
+]

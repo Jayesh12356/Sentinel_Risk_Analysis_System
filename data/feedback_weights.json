@@ -1,0 +1,1 @@
+{"category_confidence_multipliers": {"CYBER": 1.0, "NEWS": 1.0, "FINANCIAL": 1.0, "UNKNOWN": 1.0}, "source_priority_weights": {"NVD": 1.0, "NEWSAPI": 1.0, "SEC_EDGAR": 1.0, "UNKNOWN": 1.0}, "overall_acted_on_rate": 0.0, "last_updated": "2026-03-26T10:44:58Z", "total_feedback_processed": 0}

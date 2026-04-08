@@ -1,0 +1,41 @@
+[
+  {
+    "title": "SEC Expands Cybersecurity Disclosure Rules — Material Incident Reporting Now Mandatory Within 4 Business Days",
+    "content": "The SEC has finalised expanded cybersecurity disclosure rules under Release No. 33-11216, requiring public companies to report material cybersecurity incidents within four business days of determination. Additionally, annual 10-K filings must now include detailed descriptions of cybersecurity risk management programs and board-level oversight. Financial services firms must assess whether existing incident classification thresholds meet the 'materiality' standard under the new rules, or face potential enforcement actions and restatement risk.",
+    "source": "NEWS",
+    "category": "REGULATORY",
+    "confidence": 0.93,
+    "priority": "P1",
+    "entities": [
+      {"name": "SEC", "entity_type": "REGULATOR"},
+      {"name": "Release No. 33-11216", "entity_type": "REGULATION"},
+      {"name": "10-K", "entity_type": "REGULATION"}
+    ]
+  },
+  {
+    "title": "FINRA Fines Major Asset Manager $12M for Inadequate AML Surveillance System",
+    "content": "FINRA has imposed a $12 million fine on a large US asset manager for maintaining an inadequate anti-money laundering (AML) transaction monitoring system that failed to flag suspicious trading patterns across 14,000 customer accounts. The regulator found that the firm's automated surveillance system had not been calibrated to current trading volumes since 2021, creating systemic blind spots. The case underscores the need for periodic AML system revalidation aligned with FINRA Rule 3310.",
+    "source": "NEWS",
+    "category": "REGULATORY",
+    "confidence": 0.90,
+    "priority": "P1",
+    "entities": [
+      {"name": "FINRA", "entity_type": "REGULATOR"},
+      {"name": "FINRA Rule 3310", "entity_type": "REGULATION"},
+      {"name": "AML", "entity_type": "COMPLIANCE_DOMAIN"}
+    ]
+  },
+  {
+    "title": "Bloomberg Terminal Zero-Day Exploited to Access Real-Time Market Data Feeds",
+    "content": "Threat intelligence reports indicate APT group UNC3782 has been exploiting an unpatched vulnerability in Bloomberg Terminal's data distribution layer to gain unauthorized access to real-time and historical market data feeds. The vulnerability, CVE-2024-44192, allows an authenticated Terminal user to access data entitlements beyond their subscription tier. In financial services environments, this could enable privileged market information access constituting potential insider trading exposure.",
+    "source": "NEWS",
+    "category": "CYBER",
+    "confidence": 0.84,
+    "priority": "P1",
+    "entities": [
+      {"name": "CVE-2024-44192", "entity_type": "CVE"},
+      {"name": "Bloomberg", "entity_type": "VENDOR"},
+      {"name": "UNC3782", "entity_type": "THREAT_ACTOR"}
+    ]
+  }
+]

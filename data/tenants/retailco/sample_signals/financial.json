@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Holiday Peak Season Revenue at Risk: Inventory System Lag Causing 18% Cart Abandonment Spike",
+    "content": "Real-time analytics data shows cart abandonment rates have increased by 18 percentage points this week, correlating with inventory availability mis-displays on the e-commerce platform. Root cause analysis points to a 4–6 minute lag in the inventory sync between the SAP warehouse management system and Shopify storefront. During peak traffic (Black Friday period), the lag extends to 14 minutes. Projected lost revenue at current conversion rates: $4.2M over the peak trading window.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "FINANCIAL",
+    "confidence": 0.81,
+    "priority": "P2",
+    "entities": [
+      {"name": "SAP", "entity_type": "TECHNOLOGY"},
+      {"name": "Shopify", "entity_type": "PLATFORM"}
+    ]
+  },
+  {
+    "title": "Stripe Chargeback Rate Breaches 1.0% Threshold — Card Brand Warning Issued",
+    "content": "Stripe has notified the merchant account that the chargeback rate has exceeded Visa's 1.0% dispute threshold for two consecutive months, triggering placement on the Visa Dispute Monitoring Program (VDMP). If not remediated within 90 days, Visa may impose fines of $25,000/month and risk card acceptance suspension. Primary drivers are fraudulent card-not-present transactions from compromised cards, accounting for 73% of disputes.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "FINANCIAL",
+    "confidence": 0.87,
+    "priority": "P1",
+    "entities": [
+      {"name": "Stripe", "entity_type": "VENDOR"},
+      {"name": "Visa", "entity_type": "FINANCIAL_INSTITUTION"}
+    ]
+  },
+  {
+    "title": "UPS Contract Re-Negotiation Failure: 22% Rate Increase Adds $8.6M Annual Cost",
+    "content": "Annual shipping contract re-negotiations with UPS have concluded with a 22% rate increase across parcel, freight, and same-day delivery tiers, adding an estimated $8.6M to the annual logistics cost base. Management attributes the increase to reduced volume commitments caused by supply chain diversification. The cost increase compresses gross margin by 2.3 percentage points and may require retail price adjustments ahead of the competitive peak trading season.",
+    "source": "FINANCIAL_SIGNAL",
+    "category": "FINANCIAL",
+    "confidence": 0.76,
+    "priority": "P2",
+    "entities": [
+      {"name": "UPS", "entity_type": "VENDOR"}
+    ]
+  }
+]

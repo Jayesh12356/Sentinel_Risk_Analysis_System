@@ -1,0 +1,41 @@
+[
+  {
+    "title": "HHS OCR Investigates 47 Healthcare Ransomware Incidents — HIPAA Enforcement Wave Expected",
+    "content": "The HHS Office for Civil Rights (OCR) has opened investigations into 47 healthcare ransomware incidents reported in 2024, signalling an unprecedented enforcement wave. OCR has stated it will assess whether HIPAA Security Rule §164.312 technical safeguard requirements (access controls, audit logs, encryption, integrity) were met prior to the incidents. Penalties range from $100 to $50,000 per violation per year, capped at $1.9M per violation category annually. Healthcare organisations without documented security risk analyses risk maximum penalties.",
+    "source": "NEWS",
+    "category": "REGULATORY",
+    "confidence": 0.92,
+    "priority": "P1",
+    "entities": [
+      {"name": "HIPAA", "entity_type": "REGULATION"},
+      {"name": "HHS OCR", "entity_type": "REGULATOR"},
+      {"name": "HIPAA §164.312", "entity_type": "REGULATION"}
+    ]
+  },
+  {
+    "title": "FDA Issues Warning on Unpatched Medical Device Vulnerabilities in Connected Infusion Pumps",
+    "content": "The FDA has issued a cybersecurity safety communication regarding critical vulnerabilities (CVE-2024-48990, CVE-2024-48991) in a widely deployed connected infusion pump model. The flaws allow unauthenticated remote attackers to alter drug dosage parameters via the unencrypted hospital network interface. CVSS scores are 9.8 and 8.3 respectively. Healthcare facilities using the affected pump model must implement network isolation, disable remote configuration, and apply vendor patches under FDA 21 CFR Part 806 recall guidance.",
+    "source": "NEWS",
+    "category": "CYBER",
+    "confidence": 0.95,
+    "priority": "P1",
+    "entities": [
+      {"name": "CVE-2024-48990", "entity_type": "CVE"},
+      {"name": "CVE-2024-48991", "entity_type": "CVE"},
+      {"name": "FDA", "entity_type": "REGULATOR"},
+      {"name": "21 CFR Part 806", "entity_type": "REGULATION"}
+    ]
+  },
+  {
+    "title": "Change Healthcare Incident Aftermath: CMS Issues Advance Payment Waivers as Revenue Disruption Persists",
+    "content": "Six months after the Change Healthcare ransomware incident, CMS has extended advance payment programs for healthcare providers still experiencing revenue cycle management disruptions. An estimated $14.8 billion in claims remain unprocessed. Providers relying on Change Healthcare for eligibility verification and claims submission are reporting 20–40% revenue shortfalls. The incident demonstrates catastrophic third-party concentration risk in healthcare IT supply chains and the systemic vulnerability of shared clearinghouse infrastructure.",
+    "source": "NEWS",
+    "category": "FINANCIAL",
+    "confidence": 0.87,
+    "priority": "P1",
+    "entities": [
+      {"name": "Change Healthcare", "entity_type": "VENDOR"},
+      {"name": "CMS", "entity_type": "REGULATOR"}
+    ]
+  }
+]
